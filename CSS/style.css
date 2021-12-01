@@ -1,0 +1,243 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}	
+	
+
+	.logo {
+		width: 10vw;
+		height: 10vh;
+		background-color: black;
+	}
+
+	.logo img {
+		width: 8vw;
+		margin: 0px 15px;
+		border-radius: 5px;
+	}
+	.header {
+		width: 100vw;
+		height: 9vh;
+		background-color: black;
+		color: white;
+	
+	}
+	.header h1 {
+		text-align: center;
+		font-family: 'Shippori Antique', sans-serif;
+       
+	}
+	.nav-row {
+		display: flex;
+		margin: 10px 0px;
+		justify-content: center;
+		width: 100vw;
+		background-color: #38666e;
+
+	}
+	.nav-row a {
+		color: white;
+		padding: 6px;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	.nav-row a:hover {
+		background-color: black;
+		border-radius: 6px;
+	}
+    
+    .menu {
+    
+    	width: 100vw;
+    	height: 80vh;
+    	display: flex;
+    	
+    }
+
+    .left {
+    	width: 20vw;
+    	background-color: #38666e;
+        border-radius: 10px;
+    }
+    .left a{
+        color: white;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        padding: 6px;
+        margin: 15px 5px ;
+
+
+    }
+    .menu a:hover {
+    	background-color: black;
+    	color: white;
+    	border-radius: 5px;
+    }
+
+    .right {
+    	width: 100vw;
+    	margin-left: 5px;
+        background-color: #f2f9fa;
+        border-radius: 10px;
+    }
+    .register-and-login-form {
+    	display: flex;
+    	width: 59vw;
+    }
+
+    .footer {
+    	background-color: black;
+    	color: white;
+    	text-align: center;
+    	width: 100vw;
+    }
+
+    .right {
+    	text-align: center;
+        display: block;
+    	
+    }
+
+    .right h1 {
+    	margin-top: 10px;
+        font-family: 'Shippori Antique', sans-serif;
+       
+    }
+    .register-and-login-form {
+    	background-color: whitesmoke;
+    	border-radius: 10px;
+    	margin: 15px 120px;
+    	padding: 5px;
+    }
+    .register-and-login-form input {
+    	display: block;
+    	margin: 20px 100px;
+    	width: 40vw;
+    	font-size: 20px;
+    }
+    .register-and-login-form label {
+    	font-size: 18px;
+    	font-weight: bold;
+    }
+    #register-and-login-btn {
+    	background-color:black;
+    	color: white;
+    	border-radius: 10px;
+    	cursor: pointer;
+    	width: 41vw;
+    }
+    #register-and-login-btn:hover {
+    	background-color: #38666e;
+
+    }
+    
+    .profile-tags {
+    	margin: 15px 2px;
+    	width: 20vw;
+
+    }
+    .profile-tags a {
+    	text-decoration: none;
+    	color: white;
+    	background-color: black;
+    	padding: 5px;
+    	border-radius: 6px;
+    }
+    .profile-name {
+    	display: block;
+    	font-size: 36px;
+    	font-weight: bold;
+    	width: 50vw;
+    	margin-top: 20px;
+    }
+     
+    .display-elements {
+    	margin-top: 30px;
+    	width: 50vw;
+    } 
+    
+    .display-pic img{
+    	width: 150px;
+    	height: 150px;
+    	border-radius: 20px;
+    }
+    .display-email {
+    	font-size: 20px;
+    	margin-top: 10px;
+    	font-family: 'Merriweather Sans', sans-serif;
+    }
+
+    .display-name {
+    	font-size: 20px;
+    	margin-top: 10px;
+    	font-family: 'Merriweather Sans', sans-serif;
+      
+    }
+
+    .msg {
+    	width: 60vw;
+    	margin-top: 25px;
+    	font-family: 'Merriweather Sans', sans-serif;
+     
+    }
+    .setting-table {
+        margin: 20px 25px;
+        width: 60vw;
+    }
+
+    .table-data {
+        background-color: white;
+        width: 50vw;
+        margin: 15px 30px;
+        height: 40vh;
+        padding: 5px;
+    }
+    .table-data img {
+        width: 150px ; 
+        height: 150px;
+        margin-left: -600px; 
+    }
+    .table-data input {
+        font-size: 20px;
+        margin: 15px 30px;
+        display: block;
+    }
+    .table-data label {
+        font-size: 20px;
+        margin-left: -600px;
+    }
+    .password-form {
+        background-color: white;
+        width: 50vw;
+        height: 50vh;
+        padding: 5px;
+    }
+    .password-form input {
+        width: 30vw;
+        padding: 5px;
+        margin: 15px auto;
+    }
+    .about {
+     width: 40vw;
+     height: 24vh;
+     margin-left: 15vw;
+     margin-top: 2vw;
+     background-color: white;
+     border-radius: 20px;
+
+    }
+    .about p {
+    margin: 30px 25px;
+    padding: 10px;
+
+    }
+    .heading {
+    width: 65vw;
+
+    }
+    .home-heading {
+     width: 66vw;
+     margin-top: 10px;
+    }
